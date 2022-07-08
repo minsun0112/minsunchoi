@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+::selection {
+    background-color: #FF307A;
+    color: white;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+
+
+/*내비 시작*/
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+}
+
+a:hover{
+    color: #FF307A;
+}
+
+a:active{
+    color: #db004d;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    margin-top: 12px;
+    margin-left: 270px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+.navi{
+    justify-content: flex-end;
+    margin-top: 35px;
+    margin-right: 268px;
+}
+
+
+/*앨범 시작*/
+
+.all{
+    padding-top: 210px;
+    margin-left: 290px;
+    margin-right: 290px;
+}
+
+h1{
+    margin-bottom: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #222;
+}
+
+h3{
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #a5a5a5;
+}
+
+/*앨범 진짜 시작*/
+.contents_1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 422px;
+}
+
+.contents_2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contents_3{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+.container1{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p1:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container2{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p2:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container3{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p3:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container4{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p4:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container5{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p5:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container6{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p6:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container7{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p7:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container8{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p8:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container9{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p9:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container10{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p10:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container11{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p11:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container12{
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.p12:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.container img{
+    display: block;
+    width: 100%;
+    transform: scale(1);
+    transition: all .3s linear;
+    background: radial-gradient(#3f0016 100%, #FF307A 100%);
+}
+
+
+
+
+/*moreview 시작*/
+.moreview_1{
+    display: flex;
+    justify-content: center;
+}
+
+.more_1{
+    color: #ABABAB;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 300px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    background-color: #1E1E1E;
+    padding: 72px;
+}
+
+.five{
+    display: inline-block;
+    justify-content: center;
+}
+
+h4{
+    margin-left: 310px;
+    width: 1230px;
+    border: 2px solid #ABABAB;
+    color: #ABABAB;
+    padding: 25px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h4:hover{
+    color: #FF307A;
+    border: 2px solid #FF307A;
+}
+
+footer{
+    margin-top: 300px;
+}
